@@ -33,6 +33,7 @@
 using namespace Scintilla;
 using namespace Lexilla;
 
+
 namespace {
 
 #define SCE_HA_JS (SCE_HJA_START - SCE_HJ_START)
@@ -2635,6 +2636,6 @@ void SCI_METHOD LexerHTML::Lex(Sci_PositionU startPos, Sci_Position length, int 
 	styler.Flush();
 }
 
-LexerModule lmHTML(SCLEX_HTML, LexerHTML::LexerFactoryHTML, "hypertext", htmlWordListDesc);
+//LexerHTML* lmXML(true, false);
+//LexerModule lmHTML(SCLEX_HTML, LexerHTML::LexerFactoryHTML, "hypertext", htmlWordListDesc);
 LexerModule lmXML(SCLEX_XML, LexerHTML::LexerFactoryXML, "xml", htmlWordListDesc);
-LexerModule lmPHPSCRIPT(SCLEX_PHPSCRIPT, LexerHTML::LexerFactoryPHPScript, "phpscript", phpscriptWordListDesc);

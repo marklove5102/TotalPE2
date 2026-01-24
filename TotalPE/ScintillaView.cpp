@@ -8,7 +8,6 @@
 #include <LexerModule.h>
 #include <ThemeHelper.h>
 #include <Theme.h>
-
 #include "PEStrings.h"
 #include "PEFile.h"
 

@@ -8,8 +8,7 @@
 // Generated from the TEXTINCLUDE 2 resource.
 //
 #include "winres.h"
-#include <atlres.h>
-#include <WtlHelperres.h>
+
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
@@ -112,6 +111,7 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
+#include <atlres.h>
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -463,7 +463,7 @@ BEGIN
             VALUE "FileDescription", "Total PE - PE Viewer"
             VALUE "FileVersion", "0.6.5.1"
             VALUE "InternalName", "TotalPE"
-            VALUE "LegalCopyright", "©2022-2024 Pavel Yosifovich"
+            VALUE "LegalCopyright", "©2022-2026 Pavel Yosifovich"
             VALUE "OriginalFilename", "TotalPE.exe"
             VALUE "ProductName", "Total PE"
             VALUE "ProductVersion", "0.6.5.1"
